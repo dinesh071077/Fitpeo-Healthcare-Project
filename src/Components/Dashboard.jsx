@@ -13,7 +13,7 @@ const Dashboard = () => {
           
             <div className="flex-1 bg-white rounded-2xl p-4 shadow">
               <img
-                src="src/assets/human body.png"
+                src="src/assets/human body.jpg"
                 alt="Human Model"
                 className="w-full h-auto object-contain max-h-72"
               />
@@ -74,7 +74,7 @@ const Dashboard = () => {
           <div className="bg-white rounded-2xl p-4 shadow">
             <h3 className="text-lg font-semibold text-gray-700 mb-4">Activity</h3>
             <img
-              src="src/assets/chart.png"
+              src="src/assets/chart.jpg"
               alt="Health Chart"
               className="w-full h-auto object-contain"
             />
