@@ -1,6 +1,8 @@
 
 import React from 'react';
 import { FaTooth, FaBone, FaLungs, FaCalendarAlt, FaHeartbeat } from 'react-icons/fa';
+import humanbody from '../assets/humanbody.jpg'
+import chart from '../assets/chart.jpg'
 
 const Dashboard = () => {
   return (
@@ -13,7 +15,7 @@ const Dashboard = () => {
           
             <div className="flex-1 bg-white rounded-2xl p-4 shadow">
               <img
-                src="src/assets/human body.jpg"
+                src={humanbody}
                 alt="Human Model"
                 className="w-full h-auto object-contain max-h-72"
               />
@@ -74,7 +76,7 @@ const Dashboard = () => {
           <div className="bg-white rounded-2xl p-4 shadow">
             <h3 className="text-lg font-semibold text-gray-700 mb-4">Activity</h3>
             <img
-              src="src/assets/chart.jpg"
+              src={chart}
               alt="Health Chart"
               className="w-full h-auto object-contain"
             />
